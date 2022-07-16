@@ -1,0 +1,97 @@
+{
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tabSize": 3,
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-msedge": "",
+    "pwa-node": "node"
+  },
+
+  "editor.formatOnPaste": true,
+  "diffEditor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
+  "vscode-pets.position": "explorer",
+  "vscode-pets.petSize": "medium",
+  "html.format.contentUnformatted": "pre,code,textarea",
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json", "jsonc"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "less", "scss"],
+    "html": ["htm", "html"]
+  },
+  "editor.wordWrapColumn": 110,
+  "typescript.format.insertSpaceAfterCommaDelimiter": false,
+  "prettier.printWidth": 120,
+  "beautify.ignore": "",
+  "editor.suggest.showStatusBar": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "git.ignoreWindowsGit27Warning": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "python.formatting.blackPath": "/usr/local/bin/black",
+  "python.formatting.blackArgs": ["--line-length=90"],
+  "code-runner.runInTerminal": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "liveServer.settings.donotVerifyTags": true
+}
